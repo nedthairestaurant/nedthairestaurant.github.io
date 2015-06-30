@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>DirectAdmin Login</title>
+<style>
+*{ FONT-SIZE: 8pt; FONT-FAMILY: verdana; } b { FONT-WEIGHT: bold; } .listtitle { BACKGROUND: #425984; COLOR: #EEEEEE; white-space: nowrap; } td.list { BACKGROUND: #EEEEEE; white-space: nowrap; } </style>
+</head>
+<body onload="document.form.username.focus();if(document.form.referer.value.indexOf('#')==-1)document.form.referer.value+=location.hash;">
+<center><br><br><br><br>
+<h1>DirectAdmin Login Page</h1>
+<table cellspacing=1 cellpadding=5>
+<tr>
+<td class=listtitle colspan=2>Please enter your Username and Password</td></tr>
+<form action="/CMD_LOGIN" method="POST" name="form">
+<input type=hidden name=referer value="/CMD&#95FILE&#95MANAGER/domains/nedthairestaurant.com/public&#95html/nedthai&#95jun&#50&#55&#95&#50&#48&#49&#53.tar.gz">
+<tr><td class=list align=right>Username:</td><td class=list><input type=text name=username></td></tr>
+<tr><td class=list align=right>Password:</td><td class=list><input type=password name=password></td></tr>
+<tr><td class=listtitle align=right colspan=2><input type=submit value='Login'></td></tr>
+</form>
+</table>
+</center></body></html>
