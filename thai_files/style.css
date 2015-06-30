@@ -1,0 +1,265 @@
+/* CSS Document */
+
+* {
+	margin:0; padding:0; 
+}
+
+body{
+background-color:#fff;
+background-image: url('/thai_files/temple.jpg');
+}
+a img { border:0;}
+img {vertical-align:top;}
+ul { list-style:none;}
+html, input, textarea{
+		font-family:Georgia, tahoma; 
+		font-size:11px;
+		line-height:17px;
+		color:#868686;		
+	}
+input, select { vertical-align:middle; font-weight:normal;}
+
+.menutext {
+	padding-right: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+	text-align: justify;
+	margin:10px 0 0 0;
+}
+.menuprice {
+	font-weight: normal;
+	font-size: 11px;
+	color: #333;
+}
+
+strong {
+}
+.left { float:left;}
+.right {float:right;}
+.clear  { clear:both;}
+/*////text/////*/
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight: normal;
+	color: #333333;
+	text-align: justify;
+	margin:10px 0 0 0;
+}
+.text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+
+}
+.text-1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #B79300;
+	text-decoration: none;
+}
+.text-2{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #FF9900;
+	text-decoration: none;
+	height: 20px;
+	
+}
+
+h1{
+	color:#a1323b;
+	text-decoration:none;
+	font-size:16pt;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14pt;
+	font-weight:bold;
+	color:#a1323b;
+	text-decoration:none;
+}
+h3{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#b52d1b;
+	text-decoration:none;
+	font-weight:normal;
+}
+h4{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#a1323b;
+	text-decoration:none;
+	font-weight: normal;
+}
+h5{
+	font-family: "Times New Roman", Times, serif;
+	font-size:14px;
+	font-weight:normal;
+	color:#AE6800;
+	text-decoration:none;
+	margin:3px 0 0 0;
+}
+h6{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#333333;
+	text-align:justify;
+	margin:10px 0 0 0;
+}
+.Logo{
+	padding:30px 0 0 0;
+	margin:20px 0 0 20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #CC0000;
+	text-decoration: none;
+	display: inline;
+}
+.heading-1{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #a1323b;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+.heading-2{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #AE6800;
+	text-decoration: none;
+	margin:3px 0 0 0;
+	
+}
+.heading-3{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FF9900;
+	text-decoration: none;
+	font-size: 11pt;
+	font-weight: normal;
+	
+}
+
+/*////R1/////*/
+.r1{
+
+}
+.r2{
+
+}
+.r3{
+
+}
+/*////ALL links/////*/
+a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FF6600;
+	text-decoration: none;
+	font-weight: normal;
+}
+a:hover{
+	color: #333333;
+	
+}
+.topLink{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #b52d1b;
+	text-decoration: none;
+	font-weight: normal;
+}
+a.topLink{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #b52d1b;
+	text-decoration: none;
+	font-weight: normal;
+}
+a.topLink:hover{
+	color:#FF0000;
+	font-weight: normal;
+}
+.sidelink{
+	float:left;
+	margin:0 0 0 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #909090;
+	text-decoration: none;
+	font-weight: normal;
+}
+a.sidelink{
+	float:left;
+	margin:0 0 0 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #909090;
+	text-decoration: none;
+	font-weight: normal;	
+}
+a.sidelink:hover{
+	background-color:#909090;
+	color:#CCCCCC;
+	font-weight: normal;	
+}
+.footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #a7a7a7;
+	text-decoration: none;
+	
+	}
+a.footer {
+	
+	}
+a.footer:hover{
+	
+	}
+/*UI Object */
+.button{
+	
+}
+.textBox{
+	
+}
+#chickList .chickBox{
+border:1px solid #FFCC00;
+height:10px;
+width:10px;
+margin:0 15px 0 0;
+}
+#chickList li{ 
+display: block;
+height:15px;
+width:200px;
+margin:8px 0 8px 50px;
+}
+/*Border*/
+.sideLinkBotom{
+	
+	}
+.twoSideBorder{
+	
+	}
+.img-1{
+border:1px solid  #FFCC00;
+margin:0 8px 8px 8px;
+}	
+.img-2{
+border:1px solid  #FFCC00;
+margin:25px 8px 8px 0px;
+}	
+/*main layout */
+.marginTop3px{
+margin:3px 0 0 0;
+}
