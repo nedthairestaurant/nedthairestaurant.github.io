@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ubon Thai Cuisine - Nederland, Colorado</title>
+    <meta name="keywords" content="thai food denver, thai food colorado, restaurant evergreen co, evergreen co, nederland colorado restaurant, thai food restaurant, best thai food,thai food recipes,thai food nyc, thai kitchen ,thai food boulder county, thai food colorado, nederland thai food, thai basil denver, denver thai restaurant, thai basil restaurant,boulder thai restaurant, restaurant denver, restaurants, restaurant week denver, thai food denver"> 
+    <meta name="description" content="Thai restaurant in Nederland Colorado serving Thai food-best thai food,thai food recipes,thai kitchen ,thai food denver ,thai food colorado ,boulder thai food,thai basil denver">
+    <meta name="Author" content="www.biomassiv.es">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 days">
+    <meta name="distribution" content="global"> 
+    <link href='//fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link href="css/full-slider.css" rel="stylesheet">
+    <style>
+
+      p#socialicons3 img{ /* 3rd set of icons. Rotate them -360deg onmouseover ONLY. Note where the "transition prop is added */
+      }
+
+      .socialicons3:hover{ 
+      -moz-transition: all 0.5s ease-in-out;
+      -webkit-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
+      -moz-transform: rotate(-360deg);
+      -webkit-transform: rotate(-360deg);
+      -o-transform: rotate(-360deg);
+      -ms-transform: rotate(-360deg);
+      transform: rotate(-360deg);
+      }
+
+     .header{
+            text-align: center;
+            } 
+     .navbar {
+            background: #34383c;
+            margin-bottom: 0px !important;
+            z-index: 1000003;
+     }
+     .brand-header {
+            width:100%; 
+            object-fit: contain;
+            background:url('logo.png') min-height:53px no-repeat center center #34383c;
+      }
+      body {
+          background: url('/thai_files/temple.jpg'); aria:center;
+      }
+      /*.navbar-collapse {
+          background:#34383c; width:100%;
+      }*/
+      img {
+         max-width: 100%;
+         height: auto;
+         width: auto\9; /* ie8 */
+      }
+      h1 {
+	text-align: center;
+	color:#fff;
+        font-family: 'Lobster', cursive;
+	font-size: 48pt;
+	text-transform: uppercase;
+	display: inline-block;
+	text-shadow:#253e45 -1px 1px 0,
+	#253e45 -2px 2px 0,
+	#d45848 -3px 3px 0,
+	#d45848 -4px 4px 0;
+	width: 100%;
+	margin: 5% auto 5%;
+      }
+      .delish {
+         font-family: 'Lobster', script;
+      }
+      .footer {
+         font-family: 'Ubuntu', sans-serif;
+      }
+     .footh {
+         font-family: 'Londrina Outline', cursive;
+         font-size: 24pt;
+      }
+      /*
+      @media(min-width:897px){
+         #header-e3 {float: right; height: 200px; width: 100%;
+         background:url('//nedthairestaurant.com/thai_files/home.jpg') no-repeat center center #34383c;
+         }
+      }
+     .logo {
+         vertical:align:middle;
+      }
+      */
+     @media(max-width: 644px) {
+      .logo {
+          width: 325px;
+          }
+       }
+      @media(max-width: 434px) {
+      .logo {
+          width: 285px;
+          }
+       }
+    @media(max-width: 384px) {
+      .logo {
+          width: 202px;
+          }
+       }
+.md-perspective,
+.md-perspective body {
+	height: 100%;
+	overflow: hidden;
+}
+.md-perspective body  {
+	background: #e1e1e1;
+	-webkit-perspective: 600px;
+	-moz-perspective: 600px;
+	perspective: 600px;
+}
+.container {
+	background: #34383c;
+	min-height: 100%;
+}
+.md-modal {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 50%;
+	max-width: 100%;
+	min-width: 320px;
+	height: auto;
+	z-index: 2000;
+	visibility: hidden;
+	background: #34383c;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+.md-show {
+	visibility: visible;
+}
+.md-overlay {
+	position: fixed;
+        top:50px;
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	opacity: 0;
+	background: #34383c;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.md-show ~ .md-overlay {
+	opacity: 1;
+	visibility: visible;
+}
+/* Content styles */
+.md-content {
+	color: #fff;
+	background: #e1e1e1;
+	position: relative;
+	border-radius: 3px;
+	margin: 0 auto;
+}
+.md-content h3 {
+	margin: 0;
+	padding: 0.4em;
+	text-align: center;
+	font-size: 2.4em;
+	font-weight: 300;
+	opacity: 0.8;
+	background: rgba(0,0,0,0.1);
+	border-radius: 3px 3px 0 0;
+}
+.md-content > div {
+	padding: 15px 40px 30px;
+	margin: 0;
+	font-weight: 300;
+	font-size: 1.15em;
+}
+.md-content > div p {
+	margin: 0;
+	padding: 10px 0;
+}
+.md-content > div ul {
+	margin: 0;
+	padding: 0 0 30px 20px;
+}
+.md-content > div ul li {
+	padding: 5px 0;
+}
+.md-content button {
+	display: block;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+
+/* Effect 12b:  Just me - + map */
+.md-effect-12b .md-content {
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+        position:relative;
+        top:-160px;
+}
+.md-show.md-effect-12b ~ .md-overlay {
+	background: #e1e1e1;
+} 
+.md-effect-12b .md-content h3,
+.md-effect-12b .md-content {
+	background: transparent;
+}
+.md-show.md-effect-12b .md-content {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+/* Effect 12:  Just me */
+.md-effect-12 .md-content {
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.md-show.md-effect-12 ~ .md-overlay {
+	background: #e1e1e1;
+} 
+.md-effect-12 .md-content h3,
+.md-effect-12 .md-content {
+	background: transparent;
+}
+.md-show.md-effect-12 .md-content {
+   -webkit-transform: scale(1);
+   -moz-transform: scale(1);
+   -ms-transform: scale(1);
+   transform: scale(1);
+   opacity: 1;
+}
+
+/* Effect 18:  Slide from right with perspective on container */
+.md-show.md-effect-18 ~ .container {
+	height: 100%;
+	overflow: hidden;
+}
+
+.md-show.md-effect-18 ~ .md-overlay {
+	background: rgba(143,27,15,0.8);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.md-show.md-effect-18 ~ .container,
+.md-show.md-effect-18 ~ .md-overlay {
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform-origin: 0% 50%;
+	-webkit-animation: rotateRightSideFirst 0.5s forwards ease-in;
+	-moz-transform-style: preserve-3d;
+	-moz-transform-origin: 0% 50%;
+	-moz-animation: rotateRightSideFirst 0.5s forwards ease-in;
+	transform-style: preserve-3d;
+	transform-origin: 0% 50%;
+	animation: rotateRightSideFirst 0.5s forwards ease-in;
+}
+
+@-webkit-keyframes rotateRightSideFirst {
+	50% { -webkit-transform: translateZ(-50px) rotateY(5deg); -webkit-animation-timing-function: ease-out; }
+	100% { -webkit-transform: translateZ(-200px); }
+}
+
+@-moz-keyframes rotateRightSideFirst {
+	50% { -moz-transform: translateZ(-50px) rotateY(5deg); -moz-animation-timing-function: ease-out; }
+	100% { -moz-transform: translateZ(-200px); }
+}
+
+@keyframes rotateRightSideFirst {
+	50% { transform: translateZ(-50px) rotateY(5deg); animation-timing-function: ease-out; }
+	100% { transform: translateZ(-200px); }
+}
+
+.md-effect-18 .md-content {
+	-webkit-transform: translateX(200%);
+	-moz-transform: translateX(200%);
+	-ms-transform: translateX(200%);
+	transform: translateX(200%);
+	opacity: 0;
+}
+
+.md-show.md-effect-18 .md-content {
+	-webkit-transform: translateX(0);
+	-moz-transform: translateX(0);
+	-ms-transform: translateX(0);
+	transform: translateX(0);
+	opacity: 1;
+	-webkit-transition: all 0.5s 0.1s;
+	-moz-transition: all 0.5s 0.1s;
+	transition: all 0.5s 0.1s;
+}
+
+@media screen and (max-width: 32em) {
+	body { font-size: 75%; }
+}
+
+.container {
+   background: #34383c;
+   min-height: 100%;
+}
+.navbar .nav > li {
+   z-index: 10000;
+}
+.topbar li:hover
+{
+    background-color: #000 !important;
+}
+
+    @media(max-width: 434px) {
+  #md-effect-18 {
+      position:relative; top:135px;
+} }
+
+</style>
+
+</head>
+<body>
+
+
+
+<div class="md-modal md-effect-12" id="modal-12" style="height:100%;width:100%;        z-index: 1000002;">
+                 <div style="height:35%;position:relative;top:50px;">					
+			<div class="md-close btn btn-primary" style="align:center; width:100%;height:140px;">Close</div>
+	         </div>
+
+		 <div class="md-content" style="height:50%;">
+	                <h1 id="phon" data-scale-ratio="1">3 0 3 <span class="socialicons3">*</span> 2 5 8  <span class="socialicons3">*</span> 3 1 9 4</h1>	
+      		 </div>
+
+</div>
+
+<div class="md-modal md-effect-12b" id="modal-12b" style="height:100%;max-height:100%;width:100%;">
+              
+		<div class="md-content"  style="height:100%; position:relative; top:60px;">  <b>Click to close map</b>
+                        <img class="md-close" src="thai_files/map_1_.png" style="max-width:100%;height:100%;width:100%;max-height:100%;" >
+                <div>					
+			
+</div>
+
+			
+		</div>
+</div>
+	<div class="md-modal md-effect-18" id="modal-18" style="height:100px;width:100%;">
+                <div style="height:35%; position:relative;top:-283px;" >					
+			<div class="md-close btn btn-primary" style="align:center; width:100%;height:140px;">Close</div>
+		</div>
+			<div class="md-content" style="position:relative;top:-283px;">
+				<h3><a href="https://www.gofundme.com/helpghormu/donate"  target="_new">www.gofundme.com/helpghormu/donate</a></h3>
+				<div>
+<a href="https://www.gofundme.com/helpghormu/donate" target="_new"><img src="thai_files/gofundme.png" alt="please donate as our village home was devastated in recent earthquake." max-width=1025 max-height=607></a>
+				
+				</div>
+			</div>
+		</div>
+
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+
+ <div class="navbar-header style="header:38px !important;">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+  <a class="navbar-brand logo" href="index.html" title="Ubon Thai Cuisine Nederland, Colorado">
+    <img style="max-height:45px; position:relative;top:-10px;" src="/logo.png">
+  </a>
+</div>
+
+    <div class="collapse navbar-collapse navbar-collapse" id="myNavbar">
+        <ul class="nav topbar navbar-nav pull-center">
+            <li><a href="menu.pdf">MENU</a></li>
+            <li><a href="#" class="md-trigger" data-modal="modal-12">ORDER NOW</a></li>
+           <li><a href="#"  class="md-trigger" data-modal="modal-12b">LOCATION</a></li>
+           <li><a href="#"  data-modal="modal-18" class="btn btn-warning md-trigger md-setperspective">Earthquake <blink>relief!</blink></button></a></li>
+        </ul>
+    </div>
+    </div>
+    </nav><section id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+            <li data-target="#myCarousel" data-slide-to="8"></li>
+            <li data-target="#myCarousel" data-slide-to="9"></li>
+            <li data-target="#myCarousel" data-slide-to="10"></li>
+            <li data-target="#myCarousel" data-slide-to="11"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+
+
+            <div class="item active">
+                <div class="fill" style="background-image:url('//nedthairestaurant.com/thai_files/latest_thai-food_nederland.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Welcome!</h2>
+                </div>
+            </div>
+            <div class="item">
+                 <div class="fill" style="background-image:url('//nedthairestaurant.com/thai_files/thai_cuisine_map_boulder-county.png');"></div>
+           
+                <div class="carousel-caption">
+                    <h2>just off the main traffic circle in Nederland</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('//nedthairestaurant.com/thai_files/000.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Crunchy and Delicious, with our own homemade sauces</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('//nedthairestaurant.com/thai_files/00.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Traditional Sweet Confections</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('//nedthairestaurant.com/thai_files/000000.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Healthy portions, vegetarian and gluten free options available.</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('//nedthairestaurant.com/thai_files/_000000000.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Yummy Momos</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('//nedthairestaurant.com/thai_files/_0000000000.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Our sign by Nederland traffic circle.</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('//nedthairestaurant.com/thai_files/_000.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Relax and enjoy the air and view of the divide</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('//nedthairestaurant.com/thai_files/_0000.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>We are a small family run business, we enjoy welcoming your family :)</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('//nedthairestaurant.com/thai_files/_00000.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Enjoy our healthy portions with the finest natural ingredients</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('//nedthairestaurant.com/thai_files/_000000.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Namaste</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('//nedthairestaurant.com/thai_files/_0000000.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Full bar for 21+</h2>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </section>
+
+
+   <div class="container-fluid" style="background:#fff;max-width:100%;width:100%;max-height:220px;">
+    
+        <div class="row" style="vertical-align: middle;" class="center-block">
+            <div class="col-md-6 center-block">
+                <h2 style="text-shadow: 0px -1px 0px rgba(0, 1, 1, 0.5);" class="delish">Delicious Thai Food in Nederland, CO</h2>
+                <p>  Act Now! call <span style="text-shadow: 0px -1px 0px rgba(0, 1, 1, 0.5);size:20pt;" class="delish">303-258-3194</span><BR>
+                    <a href="//nedthairestaurant.com/menu.pdf">click here</a> take a look at the menu. <BR>
+                    <a href="mapx.html">Location 
+                        Map</a>
+            </div>
+            <div class="col-md-6" style="background:#fff;">
+             <BR>
+             <img src="http://nedthairestaurant.com/thai_files/home.jpg">
+            </div>
+        
+
+ <!-- /.row -->
+
+ <!-- Footer -->
+        <footer style="background:#fff;max-width:100%;max-height:200px;">
+            <div class="row" style="background:#fff;" >
+                <div class="col-lg-12 footer">
+                    <p style="float:right;text-align:right;"><A href="http://biomassiv.es" title="Biomassives Web App Design, Host & Maint">Bio<span class="footh">massives</span><BR><span style="position:relative;top:-11px;">&copy;2015</span></A></p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer></div></div>
+    <!-- /.container -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//thdoan.github.io/scalem/javascripts/jquery.scalem.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/modalEffects.js"></script>
+    <script>
+     $('.carousel').carousel({
+        interval: 5000 //changes the speed
+     });
+     
+  $(document).ready(function() {
+      // Make text responsive using data attributes
+     $('#phon').scalem();
+
+  //   $('.md-content').click(function() {
+  //       $('.md-modal').hide(); 
+  //   });
+  });
+
+    </script>
+
+</body>
+</html>
